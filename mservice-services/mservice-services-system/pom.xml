@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ymu</groupId>
+    <artifactId>mservice-services</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>mservice-services-system</artifactId>
+  <packaging>pom</packaging>
+  <name>mservice-services-system</name>
+  <description>系统服务层。所有服务共用。包括短信服务，邮件服务，缓存服务，消息服务，存储服务等</description>
+</project>
