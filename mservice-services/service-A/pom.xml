@@ -1,0 +1,14 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ymu</groupId>
+    <artifactId>mservice-services</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>mservive-services-business</artifactId>
+  <packaging>pom</packaging>
+  <name>mservive-services-business</name>
+  <description>
+	  应用服务层，应用服务层的微服务之间不依赖调用。只垂直调用基础层服务。不面向数据库，对数据库不可见。
+  </description>
+</project>
